@@ -2,7 +2,7 @@ import React from "react";
 
 const PaymentMethod = () => {
   return (
-    <div className=" bg-white px-5 py-5 mt-5 shadow rounded">
+    <div className=" bg-white px-5 py-5 mt-5 shadow rounded lg:w-[50%]">
       <div className=" flex items-center gap-3 border-b pb-3">
         <span className=" bg-[#FEECEB] text-[#F44336] w-7 text-center font-bold rounded-full">
           2

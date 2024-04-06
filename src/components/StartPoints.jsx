@@ -4,8 +4,8 @@ import { MdStars } from "react-icons/md";
 
 const StartPoints = () => {
   return (
-    <div className=" bg-white mt-5 px-5 pt-5 pb-4 shadow flex flex-col gap-4 rounded text-center lg:py-8 lg:flex lg:flex-row lg:justify-between lg:items-center">
-      <div className=" lg:text-start">
+    <div className=" bg-white mt-5 px-5 pt-5 pb-4 shadow flex flex-col gap-4 rounded text-center md:py-8 md:flex md:flex-row md:justify-between md:items-center">
+      <div className=" md:text-start">
         <h3 className=" capitalize text-xl font-semibold">star point</h3>
         <p className=" text-base font-medium">
           <span className=" capitalize">earn star points</span> and use on your

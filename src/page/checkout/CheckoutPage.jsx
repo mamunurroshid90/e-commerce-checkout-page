@@ -6,6 +6,7 @@ import DeliveryMethod from "../../components/DeliveryMethod";
 import ApplyMethod from "../../components/ApplyMethod";
 import OrderOverview from "../../components/OrderOverview";
 import ConfirmOrder from "../../components/ConfirmOrder";
+import ApplyPoints from "../../components/ApplyPoints";
 
 const CheckoutPage = () => {
   return (
@@ -15,21 +16,20 @@ const CheckoutPage = () => {
           <h1 className=" text-2xl capitalize font-medium">checkout</h1>
           <StartPoints />
         </div>
-        <div className=" lg:grid lg:grid-cols-3 lg:gap-7">
+        <div className=" md:grid md:grid-cols-3 md:gap-6">
           <div className="">
             <Form />
           </div>
-          <div className=" lg:col-span-2">
-            <div className=" lg:grid lg:grid-cols-2 lg:gap-5">
-              <div className=" ">
-                <PaymentMethod />
-              </div>
-              <div className="">
-                <DeliveryMethod />
-              </div>
+          <div className=" md:col-span-2">
+            <div className="md:flex gap-6">
+              <PaymentMethod />
+              <DeliveryMethod />
             </div>
             <div>
               <ApplyMethod />
+            </div>
+            <div>
+              <ApplyPoints />
             </div>
             <div>
               <OrderOverview />
