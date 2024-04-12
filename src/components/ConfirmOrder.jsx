@@ -24,7 +24,10 @@ const ConfirmOrder = () => {
           </p>
         </div>
         <div>
-          <button className=" w-full md:w-[140px] px-5 py-2.5 lg:px-5 lg:py-2.5 border-2 border-[#3749bb] capitalize relative rounded group overflow-hidden font-bold bg-[#3749bb] text-white text-sm  inline-block">
+          <button
+            type="submit"
+            className=" w-full md:w-[140px] px-5 py-2.5 lg:px-5 lg:py-2.5 border-2 border-[#3749bb] capitalize relative rounded group overflow-hidden font-bold bg-[#3749bb] text-white text-sm  inline-block"
+          >
             <span className="absolute top-0 left-0 flex w-full h-0 mb-0 transition-all duration-200 ease-out transform translate-y-0 bg-[#3749bb] group-hover:h-full opacity-90 group-hover:bg-[#4237bb]"></span>
             <span className="relative group-hover:text-white">
               confirm order
